@@ -1,18 +1,13 @@
-## Getting Started
+# Desafio Controle de Fluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Exercintando o conteúdo apresentado no módulo de Controle de Fluxo do Curso Java com Spring Boot, codifiquei o seguinte cenário:
 
-## Folder Structure
+O sistema deverá receber dois parâmetros via terminal que representarão dois números inteiros, com estes dois números deverá obter a quantidade de interações (for) e realizar a impressão no console dos números incrementados.
 
-The workspace contains two folders by default, where:
+Exemplo:
+- Se passar os números 12 e 30, logo teremos uma interação (for) com ocorrências para imprmir os números.
+- Se o primeiro parâmetro for MAIOR que o segundo parâmetro, vai ser lançado uma excerção customizada chamada de "ParametrosIvalidosException" com a mensagem: "O segundo parâmetro deve ser maior que o primeiro".
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Ferramentas:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<img loading="JAVA" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/> <img loading="VSC" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
